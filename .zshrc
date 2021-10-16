@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-export PATH=$JAVA_HOME/bin:$HOME/opt/usr/local/bin:$HOME/bin:/usr/local/bin:$HOME/applications/flutter/bin:$HOME/applications/android/cmdline-tools/5.0/bin:$PATH
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$JAVA_HOME/bin:$HOME/opt/usr/local/bin:$HOME/bin:/usr/local/bin:$HOME/applications/flutter/bin:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
 export TMPDIR="/tmp"
 
 # Path to your oh-my-zsh installation.
