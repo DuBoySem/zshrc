@@ -2,7 +2,7 @@
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export ANDROID_HOME=$HOME/Android/Sdk
 export FLUTTER_ROOT=$HOME/flutter
-export PATH=$JAVA_HOME/bin:$HOME/opt/usr/local/bin:$HOME/bin:/usr/local/bin:$FLUTTER_ROOT/bin:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH
+export PATH=$HOME/repos/bash-scripts:$JAVA_HOME/bin:$HOME/opt/usr/local/bin:$HOME/bin:/usr/local/bin:$FLUTTER_ROOT/bin:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH
 export TMPDIR="/tmp"
 
 # Path to your oh-my-zsh installation.
